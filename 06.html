@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 06</title>
+</head>
+<body>
+    <script>
+        var valor = prompt("Informe o valor da compra ")
+
+        valor = parseFloat(valor)
+
+        if (valor >=100) {
+            valor = valor -(valor*0.10)
+            alert("O valor da compra com desconto é: " + valor)
+        }
+
+        else{
+            alert("Você não tem desconto. Compre mais na loja. O valor da compra é: " + valor) 
+        }
+    </script>
+</body>
+</html>
